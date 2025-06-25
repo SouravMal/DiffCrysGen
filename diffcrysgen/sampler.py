@@ -17,7 +17,7 @@ def round_sigma(sigma):
 
 def generate_samples(num_samples: int = 100, batch_size: int = 1000, model_path: str = "./../assets/saved-model/sdm.pt"):
     """
-    Generate IRCR samples using a pre-trained diffusion model.
+    Generate IRCR samples using our pre-trained version.
     
     Args:
         num_samples (int): Total number of samples to generate.

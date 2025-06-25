@@ -51,7 +51,7 @@ class PositionalEmbedding(torch.nn.Module):
 
 # Module for Preconditioning
 # Adapted from "Elucidating the Design Space of Diffusion-Based
-Generative Models" by Karras et al.
+# Generative Models" by Karras et al.
 
 class Precond(nn.Module):
   def __init__(self,

@@ -15,7 +15,7 @@ def round_sigma(sigma):
     return torch.as_tensor(sigma)
 
 
-def generate_samples(num_samples: int = 100, batch_size: int = 1000, model_path: str = "./../assets/aved-model/sdm.pt"):
+def generate_samples(num_samples: int = 100, batch_size: int = 1000, model_path: str = "./../assets/saved-model/sdm.pt"):
     """
     Generate IRCR samples using a pre-trained diffusion model.
     

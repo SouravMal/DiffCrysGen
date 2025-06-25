@@ -27,6 +27,6 @@ def inv_minmax(pcr_normed, scaler):
     pcr = np.transpose(pcr_, (1, 0, 2))
     return pcr
 
-def load_saved_diffusion_scaler(path="assets/ircr_diffusion_scaler.pkl"):
+def load_saved_diffusion_scaler(path="./../assets/ircr_diffusion_scaler.pkl"):
     return joblib.load(path)
 

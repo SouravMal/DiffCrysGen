@@ -1,4 +1,5 @@
 
+import os
 import joblib
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
@@ -27,6 +28,11 @@ def inv_minmax(pcr_normed, scaler):
     pcr = np.transpose(pcr_, (1, 0, 2))
     return pcr
 
-def load_saved_diffusion_scaler(path="assets/ircr_diffusion_scaler.pkl"):
+def load_saved_diffusion_scaler(path=None):
+    if path is None:
+        here = os.path.dirname(__file__)
+        path = os.path.join(here, "..", "assets", "ircr_diffusion_scaler.pkl")
+        path = os.path.abspath(path)
     return joblib.load(path)
+
 

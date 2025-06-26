@@ -38,7 +38,7 @@ def generate_samples(num_samples: int = 100, batch_size: int = 1000, model_path:
     # Load the model
     denoise_fn = UNet(in_c=3, out_c=3, time_emb_dim=256).to(device)
     model = Model(denoise_fn=denoise_fn).to(device)
-    model.load_state_dict(torch.load(model_path, map_location=device))
+    model.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))
     model.eval()
     print("Model loaded from:", model_path)
 

@@ -3,8 +3,8 @@ import torch
 import numpy as np
 import tqdm
 import time
-from model import Model, UNet
-from utils import *
+from diffcrysgen.model import Model, UNet
+from diffcrysgen.utils import *
 
 
 # Adapted from "Elucidating the Design Space of Diffusion-Based
@@ -15,7 +15,7 @@ def round_sigma(sigma):
     return torch.as_tensor(sigma)
 
 
-def generate_samples(num_samples: int = 100, batch_size: int = 1000, model_path: str = "./../assets/saved-model/sdm.pt"):
+def generate_samples(num_samples: int = 100, batch_size: int = 1000, model_path: str = "assets/saved-model/sdm.pt"):
     """
     Generate IRCR samples using our pre-trained version.
     

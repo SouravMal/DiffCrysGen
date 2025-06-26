@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 import spglib
-from invert_pcr import InvertPCR
+from diffcrysgen.invert_pcr import InvertPCR
 from ase import Atoms
 import ase.io
 import os
@@ -19,7 +19,7 @@ def analyze_ircr_data(generated_ircr_path="generated_ircr.npy", output_csv="gene
         save_cifs (bool): If True, saves CIF files into subfolders
         cif_dir (str): Base directory to store valid/invalid CIFs
     """
-    data = np.load(npy_path)
+    data = np.load(generated_ircr_path)
     Nmat = data.shape[0]
     print(f"Loaded {Nmat} materials from {generated_ircr_path}")
 
@@ -78,7 +78,8 @@ def analyze_ircr_data(generated_ircr_path="generated_ircr.npy", output_csv="gene
             results["gamma"].append(gamma)
 
         except Exception as e:
-            print(f"[Material {i}] Error: {e}")
+            #print(f"[Material {i}] Error: {e}")
+            print("spglib failed to assign spg")
 
     df = pd.DataFrame(results)
     df.to_csv(output_csv, index=False)

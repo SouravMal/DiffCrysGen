@@ -6,5 +6,5 @@ A Unified Score-Based Diffusion Model for Accelerated Design of Diverse Inorgani
 
 Hello! This is Sourav Mal here.
 
-
+<img src="images/logo-DiffCrysGen.png" alt="DiffCrysGen Logo" width="150"/>
 

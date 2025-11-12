@@ -37,3 +37,9 @@ Please consider citing our work if you find it helpful:
       primaryClass={cond-mat.mtrl-sci},
       url={https://arxiv.org/abs/2510.12329}, 
 }
+
+
+## Contact
+
+If you have any questions, feel free to reach us at:
+**Sourav Mal** <souravmal492@gmail.com> 

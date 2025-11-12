@@ -15,6 +15,17 @@ DiffCrysGen is a score-based diffusion model. It treats the entire materials rep
 ## Quick Start
 For a simple walkthrough of generating materials and analyzing them, see the [DiffCrysGen Demo Notebook](./notebooks/DiffCrysGen-demo.ipynb).
 
+## License
+
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+**Developed by:** [Sourav Mal](https://github.com/SouravMal) at Harish-Chandra Research Institute (HRI), Prayagraj, India.
+
+
 ## Citation
 
 Please consider citing our work if you find it helpful:
@@ -29,15 +40,3 @@ Please consider citing our work if you find it helpful:
       primaryClass={cond-mat.mtrl-sci},
       url={https://arxiv.org/abs/2510.12329}, 
 }
-
-## License
-
-This project is licensed under the **MIT License**.
-
-See the [LICENSE](LICENSE) file for details.
-
----
-
-**Developed by:** [Sourav Mal](https://github.com/SouravMal) at Harish-Chandra Research Institute (HRI), Prayagraj, India.
-
-

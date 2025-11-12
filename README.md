@@ -23,7 +23,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Developed by:** [Sourav Mal](https://github.com/SouravMal) at Harish-Chandra Research Institute (HRI), Prayagraj, India.
+**Developed by:** [Sourav Mal](https://github.com/SouravMal) at [Harish-Chandra Research Institute (HRI)] (https://www.hri.res.in/), Prayagraj, India.
 
 
 ## Citation

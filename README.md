@@ -31,7 +31,7 @@ pip install diffcrysgen
 
 ### Install from Source Code
 ```
-git clone git@github.com:SouravMal/DiffCrysGen.git
+git clone https://github.com/SouravMal/DiffCrysGen.git
 cd DiffCrysGen
 pip install -e .
 ```

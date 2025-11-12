@@ -9,7 +9,7 @@ DiffCrysGen is a score-based diffusion model. It treats the entire materials rep
 <img src="images/diffusion-schematic.png" alt="DiffCrysGen Schematic" width="550">
 
 ## Architecture of the denoising neural network
-<img src="images/architecture.png" alt="DiffCrysGen Architecture" width="650">
+<img src="images/architecture.png" alt="DiffCrysGen Architecture" width="750">
 
 
 ## Quick Start

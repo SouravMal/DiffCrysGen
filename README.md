@@ -20,10 +20,7 @@ For a simple walkthrough of generating materials and analyzing them, see the [Di
 This project is licensed under the **MIT License**.
 
 See the [LICENSE](LICENSE) file for details.
-
----
-
-**Developed by:** [Sourav Mal](https://github.com/SouravMal) at [Harish-Chandra Research Institute (HRI)] (https://www.hri.res.in/), Prayagraj, India.
+Developed by: [Sourav Mal](https://github.com/SouravMal) at Harish-Chandra Research Institute (HRI) (https://www.hri.res.in/), Prayagraj, India.
 
 
 ## Citation

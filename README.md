@@ -37,6 +37,7 @@ Please consider citing our work if you find it helpful:
       primaryClass={cond-mat.mtrl-sci},
       url={https://arxiv.org/abs/2510.12329}, 
 }
+'''
 
 
 ## Contact

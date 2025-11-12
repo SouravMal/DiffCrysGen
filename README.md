@@ -5,6 +5,7 @@ DiffCrysGen is a score-based diffusion model. It treats the entire materials rep
 
 <img src="images/logo-DiffCrysGen.png" alt="DiffCrysGen Logo" width="350"/>
 
+## Generative diffusion framework in DiffCrysGen
 <img src="images/diffusion-schematic.png" alt="DiffCrysGen Schematic" width="550">
 
 

@@ -1,4 +1,4 @@
-# DiffCrysGen
+# DiffCrysGen # DiffCrysGen [![Project Version](https://img.shields.io/badge/version-v0.1.0-blue)](https://github.com/SouravMal/DiffCrysGen)
 
 DiffCrysGen is a score-based diffusion model. It treats the entire materials representation with a single, unified diffusion process, allowing a single denosing neural network to predict a holistic score for the entire noisy crystal data. This unified treatment significantly simplifies the architecture and improves the computational efficiency.
 

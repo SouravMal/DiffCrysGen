@@ -30,3 +30,14 @@ Please consider citing our work if you find it helpful:
       url={https://arxiv.org/abs/2510.12329}, 
 }
 
+## License
+
+This project is licensed under the **MIT License**.
+
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+**Developed by:** [Sourav Mal](https://github.com/SouravMal) at Harish-Chandra Research Institute (HRI), Prayagraj, India.
+
+

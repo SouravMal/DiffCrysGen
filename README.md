@@ -11,6 +11,30 @@ DiffCrysGen is a score-based diffusion model. It treats the entire materials rep
 ## Architecture of the denoising neural network
 <img src="images/architecture.png" alt="DiffCrysGen Architecture" width="750">
 
+## Installation
+
+### Prerequisites
+
+The package requires specific environments and dependencies.
+Using a virtual environment is highly recommended.
+**Environment Setup using Conda**
+
+```
+conda create -n diffcrysgen python=3.11
+conda activate diffcrysgen
+```
+
+### Install from PyPI
+```
+pip install diffcrysgen
+```
+
+### Install from Source Code
+```
+git clone git@github.com:SouravMal/DiffCrysGen.git
+cd DiffCrysGen
+pip install -e .
+```
 
 ## Quick Start
 For a simple walkthrough of generating materials and analyzing them, see the [DiffCrysGen Demo Notebook](./notebooks/DiffCrysGen-demo.ipynb).
@@ -20,6 +44,7 @@ For a simple walkthrough of generating materials and analyzing them, see the [Di
 This project is licensed under the **MIT License**.
 
 See the [LICENSE](LICENSE) file for details.
+
 Developed by: [Sourav Mal](https://github.com/SouravMal) at Harish-Chandra Research Institute (HRI) (https://www.hri.res.in/), Prayagraj, India.
 
 
